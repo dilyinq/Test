@@ -51,21 +51,23 @@ body {
   letter-spacing: 1px;
 }
 
-.nav {
-  display: flex;
-  gap: 40px;
-}
-
-.nav a {
-  font-size: 14px;
-  font-weight: 500;
-  text-transform: uppercase;
-  padding: 8px 16px;
+.nav a { 
+  font-size: 14px; 
+  font-weight: 500; 
+  text-transform: uppercase; 
+  padding: 8px 16px; 
   transition: all 0.3s ease;
+  color: var(--color-text);
+  text-decoration: none;
 }
 
-.nav a:hover, .nav a.active {
-  border-bottom: 2px solid var(--color-border);
+.nav a.active { 
+  border-bottom: 2px solid var(--color-border); 
+  color: var(--color-text);
+}
+
+.nav a:hover { 
+  color: var(--color-primary); 
 }
 
 .hero {

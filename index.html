@@ -10,12 +10,10 @@
 
   <header class="header">
     <div class="container">
-      <div class="logo">
-        <a href="#">SoleMuse</a>
-      </div>
+      <div class="logo"><a href="index.html">SoleMuse</a></div>
       <nav class="nav">
-        <a href="#">Главная</a>
-        <a href="#" class="active">Каталог</a>
+        <a href="index.html" class="active">Главная</a>
+        <a href="#catalog">Каталог</a>
         <a href="#">О бренде</a>
         <a href="#">Контакты</a>
       </nav>
@@ -30,87 +28,92 @@
       </div>
     </section>
 
-    <section class="catalog">
+    <section class="catalog" id="catalog">
       <div class="container">
         <div class="filters">
-          <button class="filter-btn active" data-filter="all">ВСЕ</button>
-          <button class="filter-btn" data-filter="heels">ТУФЛИ</button>
-          <button class="filter-btn" data-filter="sandals">САНДАЛИИ</button>
-          <button class="filter-btn" data-filter="loafers">ЛОФЕРЫ</button>
+          <button class="filter-btn active">ВСЕ</button>
+          <button class="filter-btn">ТУФЛИ</button>
+          <button class="filter-btn">САНДАЛИИ</button>
+          <button class="filter-btn">ЛОФЕРЫ</button>
         </div>
 
         <div class="products-grid">
-          <div class="product-card" data-category="heels">
+          <!-- Товар 1 -->
+          <div class="product-card">
             <div class="product-image">
-              <img src="https://images.unsplash.com/photo-1543163521-1bf53f150b61?w=400&h=500&fit=crop" alt="ECHO — классические туфли">
+              <img src="фото_и_материалы/1_фото.png" alt="ECHO">
             </div>
             <div class="product-info">
               <h3 class="product-title">ECHO</h3>
-              <p class="product-desc">Классические туфли с острым носком и умеренным каблуком</p>
+              <p class="product-desc">Классические туфли с острым носком</p>
               <div class="product-price">12 900 ₽</div>
-              <button class="btn-view">ПОСМОТРЕТЬ</button>
+              <a href="index1.html" class="btn-view">ПОСМОТРЕТЬ</a>
             </div>
           </div>
 
-          <div class="product-card" data-category="sandals">
+          <!-- Товар 2 -->
+          <div class="product-card">
             <div class="product-image">
-              <img src="https://images.unsplash.com/photo-1562273183-1e284cfec833?w=400&h=500&fit=crop" alt="AURELIA — лёгкие сандалии">
+              <img src="фото_и_материалы/2_фото.png" alt="AURELIA">
             </div>
             <div class="product-info">
               <h3 class="product-title">AURELIA</h3>
-              <p class="product-desc">Лёгкие сандалии с ручной гравировкой на ремешках</p>
+              <p class="product-desc">Лёгкие сандалии с гравировкой</p>
               <div class="product-price">9 500 ₽</div>
-              <button class="btn-view">ПОСМОТРЕТЬ</button>
+              <a href="index1.html" class="btn-view">ПОСМОТРЕТЬ</a>
             </div>
           </div>
 
-          <div class="product-card" data-category="loafers">
+          <!-- Товар 3 -->
+          <div class="product-card">
             <div class="product-image">
-              <img src="https://images.unsplash.com/photo-1533867617858-e7b0ca654694?w=400&h=500&fit=crop" alt="PRAGUE — лоферы">
+              <img src="фото_и_материалы/3_фото.png" alt="PRAGUE">
             </div>
             <div class="product-info">
               <h3 class="product-title">PRAGUE</h3>
-              <p class="product-desc">Строгие лоферы, вдохновлённые архитектурой Праги</p>
+              <p class="product-desc">Строгие лоферы в стиле Праги</p>
               <div class="product-price">11 200 ₽</div>
-              <button class="btn-view">ПОСМОТРЕТЬ</button>
+              <a href="index1.html" class="btn-view">ПОСМОТРЕТЬ</a>
             </div>
           </div>
-
-          <div class="product-card" data-category="heels">
+          
+          <!-- Остальные товары по аналогии -->
+          <div class="product-card">
             <div class="product-image">
-              <img src="https://images.unsplash.com/photo-1596131316969-7c66f57e1698?w=400&h=500&fit=crop" alt="THESIS — архитектурный каблук">
+              <img src="фото_и_материалы/4_фото.png" alt="THESIS">
             </div>
             <div class="product-info">
               <h3 class="product-title">THESIS</h3>
-              <p class="product-desc">Чистые линии и архитектурный каблук без компромиссов</p>
+              <p class="product-desc">Архитектурный каблук без компромиссов</p>
               <div class="product-price">14 800 ₽</div>
-              <button class="btn-view">ПОСМОТРЕТЬ</button>
+              <a href="index1.html" class="btn-view">ПОСМОТРЕТЬ</a>
             </div>
           </div>
 
-          <div class="product-card" data-category="sandals">
+          <div class="product-card">
             <div class="product-image">
-              <img src="https://images.unsplash.com/photo-1603808255943-62115c150e3c?w=400&h=500&fit=crop" alt="VERIDIAN — сандалии с натуральным окрашиванием">
+              <img src="фото_и_материалы/5_фото.png" alt="VERIDIAN">
             </div>
             <div class="product-info">
               <h3 class="product-title">VERIDIAN</h3>
-              <p class="product-desc">Сандалии с ручным окрашиванием натуральными пигментами</p>
+              <p class="product-desc">Ручное окрашивание пигментами</p>
               <div class="product-price">10 300 ₽</div>
-              <button class="btn-view">ПОСМОТРЕТЬ</button>
+              <a href="index1.html" class="btn-view">ПОСМОТРЕТЬ</a>
             </div>
           </div>
 
-          <div class="product-card" data-category="loafers">
+          <div class="product-card">
             <div class="product-image">
-              <img src="https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=400&h=500&fit=crop" alt="SILENCE — матовые лоферы">
+              <img src="фото_и_материалы/6_фото.png" alt="SILENCE">
             </div>
             <div class="product-info">
               <h3 class="product-title">SILENCE</h3>
-              <p class="product-desc">Матовая белая кожа без украшений — только точность</p>
+              <p class="product-desc">Матовая белая кожа, только точность</p>
               <div class="product-price">13 100 ₽</div>
-              <button class="btn-view">ПОСМОТРЕТЬ</button>
+              <a href="index1.html" class="btn-view">ПОСМОТРЕТЬ</a>
             </div>
           </div>
+
         </div>
       </div>
     </section>
@@ -122,38 +125,5 @@
     </div>
   </footer>
 
-  <script src="script.js"></script>
-  
-    <!-- MODAL POPUP -->
-  <div id="product-modal" class="modal-overlay">
-    <div class="modal-container">
-      <button class="modal-close" aria-label="Закрыть">×</button>
-      
-      <div class="modal-content">
-        <div class="modal-gallery">
-          <img id="modal-image" src="" alt="">
-        </div>
-        
-        <div class="modal-info">
-          <h2 id="modal-title" class="modal-title"></h2>
-          <p id="modal-desc" class="modal-description"></p>
-          <div id="modal-price" class="modal-price"></div>
-          
-          <div class="modal-features">
-            <h3>Характеристики</h3>
-            <ul>
-              <li>Материал: Натуральная кожа</li>
-              <li>Производство: Ручная работа</li>
-              <li>Срок изготовления: 3-5 дней</li>
-            </ul>
-          </div>
-          
-          <button class="btn-order">ЗАКАЗАТЬ</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <script src="script.js"></script>
 </body>
 </html>
